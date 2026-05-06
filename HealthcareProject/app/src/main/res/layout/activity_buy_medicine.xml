@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BuyMedicineActivity">
+
+    <TextView
+        android:id="@+id/textViewBMTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Medicine"
+        android:textColor="@color/colorWhite"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/editTextBMName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_bg"
+        android:hint="Medicine Name"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMTitle" />
+
+    <EditText
+        android:id="@+id/editTextBMDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_bg"
+        android:hint="Medicine Details"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMName" />
+
+    <EditText
+        android:id="@+id/editTextBMQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_bg"
+        android:hint="Quantity"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMDetails" />
+
+    <Button
+        android:id="@+id/buttonBMAddToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_bg"
+        android:text="ADD TO CART"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMQuantity" />
+
+    <Button
+        android:id="@+id/buttonBMGoToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="GO TO CART"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBMAddToCart" />
+
+    <Button
+        android:id="@+id/buttonBMBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:text="BACK"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBMGoToCart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
