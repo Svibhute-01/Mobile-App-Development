@@ -82,8 +82,10 @@ This app helps users to find doctors and book appointments easily. It provides a
 ---
 
 ## 👩‍💻 Author
-
-* Your Name
+* Nilam Kumbhar
+* Shruti Konduskar
+* Snehal Sachin Vibhute
+* Tejashree Jadhav
 
 ---
 
