@@ -1,97 +1,56 @@
-Here is a **simple, student-level README.md file** you can directly upload to GitHub 👇
+# 📱 Mobile App Development Coursework
+
+## 👩‍💻 Student Information
+- **Name:** Snehal Vibhute
+- **Roll No:** 36  
+- **Branch:** Computer Science Engineering (TY)  
+- **Batch:** T2
 
 ---
 
-# 📱 Smart Healthcare App
+## 📌 Project Overview
+This repository contains all practical assignments and mini-projects completed as part of the **Mobile App Development** course.
 
-## 📝 Description
-
-Smart Healthcare App is an Android application developed using Java and SQLite.
-This app helps users to find doctors and book appointments easily. It provides a simple and user-friendly interface to manage healthcare services digitally.
-
----
-
-## 🚀 Features
-
-* User Registration and Login
-* View List of Doctors
-* Doctor Details Screen
-* Book Appointment (Date & Time)
-* View Appointments
-* Simple and Clean UI using Drawable Resources
+The main objective is to gain hands-on experience in:
+- Designing Android user interfaces  
+- Developing functional mobile applications  
+- Understanding core Android concepts  
+- Testing Android apps  
 
 ---
 
-## 🛠️ Technologies Used
-
-* **Language:** Java
-* **IDE:** Android Studio
-* **Frontend:** XML Layouts
-* **Database:** SQLite
-* **Tools:** RecyclerView, Intent, Toast
-
----
-
-## ⚙️ How It Works
-
-1. User registers in the app
-2. User logs in with credentials
-3. User views available doctors
-4. Selects a doctor
-5. Books appointment with date and time
-6. Data is saved in SQLite database
-7. User can view appointment details
+## 🛠️ Technologies & Tools Used
+- Android Studio  
+- Java  
+- XML (UI Design)  
+- SQLite Database  
+- Git & GitHub  
 
 ---
 
-## 📂 Project Structure
-
-* `activities/` → All Activity classes (Login, Register, Home, etc.)
-* `database/` → DatabaseHelper class
-* `models/` → User, Doctor, Appointment classes
-* `adapters/` → RecyclerView adapters
-* `res/layout/` → XML UI files
-* `res/drawable/` → UI design files (backgrounds, images)
-
----
-
-## 📦 Installation
-
-1. Clone the repository
-2. Open project in Android Studio
-3. Build and Run the project on emulator or device
+## 📚 List of Practicals
+1. Basic Android Application Setup  
+2. Designing User Interfaces using XML  
+3. Understanding Android Activity Lifecycle  
+4. Implementing Intents and Navigation  
+5. Handling User Inputs and Events  
+6. Working with ListView and RecyclerView  
+7. Database Integration using SQLite  
+8. Creating Mini Android Applications  
+9. Additional Experiments and Practice Programs  
 
 ---
 
-## 🎯 Applications
-
-* Useful for booking doctor appointments
-* Helps users find doctors easily
-* Saves time and effort
-* Basic healthcare management system
-
----
-
-## 🔮 Future Improvements
-
-* Add online payment feature
-* Add doctor reviews and ratings
-* Add notifications for appointments
-* Connect with online database (Firebase)
+## 🎯 Learning Outcomes
+- Understanding Android application structure  
+- Designing interactive and user-friendly UI  
+- Managing activities and navigation  
+- Handling user inputs and events  
+- Using SQLite for data storage  
+- Applying Git & GitHub for version control  
 
 ---
 
-## 👩‍💻 Author
-* Nilam Kumbhar
-* Shruti Konduskar
-* Snehal Sachin Vibhute
-* Tejashree Jadhav
 
----
-
-## 📌 Conclusion
-
-This project demonstrates how an Android application can be used to simplify healthcare services like appointment booking using SQLite database.
-
----
-
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
